@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  web: 
+    image: nginx:1.14
+    ports: 
+    - "7100:80"
+    volumes:
+    - ./dockers/web/nginx.conf:/etc/nginx/nginx.conf
+
+  mailer:
+    container_name: mailer
+    image: mailhog/mailhog
+    ports:
+      - "7125:8025"    

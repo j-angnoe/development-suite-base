@@ -1,0 +1,7 @@
+stuff/bin/
+stuff/test-reports/
+stuff/screenshots/
+node_modules
+yarn.lock
+selenium-debug.log
+

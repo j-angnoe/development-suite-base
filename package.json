@@ -1,0 +1,16 @@
+{
+  "name": "development-suite-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:devsuite-ready": "nightwatch tests/devsuite-up-and-running.js",
+    "test" : "nightwatch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^2.38.3",
+    "nightwatch": "^0.9.21"
+  }
+}
