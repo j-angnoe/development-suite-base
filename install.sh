@@ -8,8 +8,8 @@ if [ ! hash yarn 2>/dev/null ]; then
 	npm install -g yarn;
 fi;
 
-if [ ! -f bin/selenium-server-standalone-3.9.1.jar ]; then
-	wget http://selenium-release.storage.googleapis.com/3.9/selenium-server-standalone-3.9.1.jar -P ./bin/
+if [ ! -f stuff/bin/selenium-server-standalone-3.9.1.jar ]; then
+	wget http://selenium-release.storage.googleapis.com/3.9/selenium-server-standalone-3.9.1.jar -P ./stuff/bin/
 fi
 
 #############
